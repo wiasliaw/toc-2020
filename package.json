@@ -6,8 +6,5 @@
   },
   "workspaces": [
     "packages/*"
-  ],
-  "dependencies": {
-    "truffle": "^5.1.3"
-  }
+  ]
 }
