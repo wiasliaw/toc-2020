@@ -1,7 +1,7 @@
 import server from './server';
 
 (async () => {
-  server.listen(8000, () => {
-    console.info('Success');
+  server.listen(process.env.PORT, () => {
+    console.info(`Success on ${process.env.PORT}`);
   });
 })();
